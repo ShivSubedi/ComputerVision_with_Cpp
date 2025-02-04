@@ -1,0 +1,23 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/opencv4"  // Use this path for OpenCV 4 headers
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "intelliSenseMode": "linux-gcc-x64",
+            "cppStandard": "c++11",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/usr/include/opencv4"  // Update this path
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ]
+}
